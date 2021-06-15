@@ -1,0 +1,10 @@
+title: CFTF Python Curriculum
+language: English
+summary: |-
+  Adapted from Google Slides by Tristrum Tuttle
+  Created by Jordan Pitlor, 2021
+programming_language: Python
+environment: unittest
+content:
+- Python Fundamentals
+- Making Games in Python
