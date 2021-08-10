@@ -3,11 +3,9 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 31
-    length: 35
-    placeholder_text: |-
-      # Write your solution here
-      pass
+  - offset: 0
+    length: 42
+    placeholder_text: '# Put the code from the description here!'
 - name: __init__.py
   visible: false
 - name: tests/output.txt
