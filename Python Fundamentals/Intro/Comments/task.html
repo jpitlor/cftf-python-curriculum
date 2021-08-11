@@ -1,52 +1,29 @@
 <html>
 
-<h2>Task Description: Tips & Tricks</h2>
+<h2>Comments</h2>
 
-<p>This is a task description file.
-Its content will be displayed to a learner
-in the <strong>Task Description</strong> window.</p>
+<p>
+    Any line that starts with the <code>#</code> character is a comment.
+    Comments are not read as code and are skipped over when the program is run.
+</p>
 
-<p>It supports both Markdown and HTML.
-To toggle the format, you can rename <strong>task.md</strong>
-to <strong>task.html</strong>, or vice versa.
-The default task description format can be changed
-in <strong>Preferences | Tools | Education</strong>,
-but this will not affect any existing task description files.</p>
+<p>
+    If you run the code now, it will print the names of all three animals,
+    dog, cat, and coyote. Insert some <code>#</code>s to make the first and
+    third lines into comments. In other words, change the code so that it only
+    prints "cat"
+</p>
 
-<p>The following features are available in
-<strong>task.md/task.html</strong>
-which are specific to the EduTools plugin:</p>
-
-<ul>
-<li>Hints can be added anywhere in the task text.
-Type "hint" and press Tab.
-Hints should be added to an empty line in the task text.
-In hints you can use both HTML and Markdown.
-<div class="hint">Text of your hint</div></li>
-
-<li>You may need to refer your learners to a particular lesson,
-task, or file. To achieve this, you can use the in-course links.
-Specify the path using the <code>&lt;a href="course://lesson1/task1/file1"&gt;
-link_text&lt;/a&gt;</code> format.</li><br>
-
-<li>You can insert shortcuts in the task description.
-While <strong>task.html/task.md</strong> is open,
-right-click anywhere on the <strong>Editor</strong> tab
-and choose the <strong>Insert shortcut</strong> option
-from the context menu.
-For example: &amp;shortcut:FileStructurePopup;.</li><br>
-
-<li>Insert the &percnt;<code>IDE_NAME</code>&percnt; macro,
-which will be replaced by the actual IDE name.
-For example, <strong>%IDE_NAME%</strong>.</li><br>
-
-<li>Insert PSI elements, by using links like
-<code>&lt;a href="psi_element://link.to.element"&gt;element description&lt;/a&gt;</code>.
-To get such a link, right-click the class or method
-and select <strong>Copy Reference</strong>.
-Then press &amp;shortcut:EditorPaste;
-to insert the link where appropriate.
-For example, a
-<a href="psi_element://java.lang.String#contains">link to the "contains" method</a>.</li>
-</ul>
-</html>
+<div class="hint">
+    <p>%IDE_NAME% makes it easy to turn existing code into comments!</p>
+    <p>
+        If there is one line you want to turn into a comment, put your cursor
+        anywhere in the line and press <code>Ctrl+/</code> (<code>Cmd+/</code> on macOS)
+    </p>
+    <p>
+        If you are trying to make multiple lines into a comment, click and
+        drag to select those lines, and use the same shortcut. The first and
+        last lines only need at least one character selected. They don't have
+        to be entirely selected.
+    </p>
+</div>
