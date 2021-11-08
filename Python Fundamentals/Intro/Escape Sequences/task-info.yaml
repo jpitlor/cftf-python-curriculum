@@ -2,6 +2,10 @@ type: output
 files:
 - name: main.py
   visible: true
+  placeholders:
+  - offset: 0
+    length: 36
+    placeholder_text: print("hello, my name is "sally"")
 - name: __init__.py
   visible: false
 - name: tests/output.txt
