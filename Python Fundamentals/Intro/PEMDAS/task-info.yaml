@@ -1,6 +1,18 @@
-type: ide
+type: output
 files:
+- name: tests/output.txt
+  visible: false
 - name: main.py
   visible: true
+  placeholders:
+  - offset: 11
+    length: 22
+    placeholder_text: '# TODO'
+  - offset: 67
+    length: 16
+    placeholder_text: '# TODO'
+  - offset: 117
+    length: 20
+    placeholder_text: '# TODO'
 - name: __init__.py
   visible: false
