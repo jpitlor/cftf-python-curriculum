@@ -1,3 +1,5 @@
-if __name__ == "__main__":
-    # Write your solution here
-    pass
+print(20 % 3)
+print(2 ** 4)
+print(15 // 3)
+print(15 // 2)
+print(20 % 4)

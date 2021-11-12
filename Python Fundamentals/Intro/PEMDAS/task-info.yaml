@@ -5,14 +5,14 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 11
-    length: 22
-    placeholder_text: '# TODO'
-  - offset: 67
+  - offset: 36
     length: 16
-    placeholder_text: '# TODO'
-  - offset: 117
+    placeholder_text: TODO
+  - offset: 60
     length: 20
-    placeholder_text: '# TODO'
+    placeholder_text: TODO
+  - offset: 6
+    length: 22
+    placeholder_text: TODO
 - name: __init__.py
   visible: false
