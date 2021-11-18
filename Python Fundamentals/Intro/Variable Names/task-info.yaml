@@ -1,10 +1,16 @@
 type: choice
-is_multiple_choice: false
+is_multiple_choice: true
 options:
-- text: Correct
-  is_correct: true
-- text: Incorrect
+- text: lake erie depth
   is_correct: false
+- text: phone_#_area_code
+  is_correct: false
+- text: price_per_pound
+  is_correct: true
+- text: 4th_place_winner
+  is_correct: false
+- text: ACCELERATION_FROM_GRAVITY
+  is_correct: true
 message_correct: Congratulations!
 message_incorrect: Incorrect solution
 files:
